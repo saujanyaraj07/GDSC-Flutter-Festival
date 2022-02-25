@@ -1,10 +1,5 @@
-main() {
-  var given_list = [14, 5, 555];
-
-  
-  var largest_value = given_list.fold(given_list[0],
-      (int previous, int current) => previous > current ? previous : current);
-
-  
-  print("Largest value in the list : ${largest_value}");
+void main()   {
+int a=5, b=10, c=15, max;
+max = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
+print("$max is Largest");
 }
