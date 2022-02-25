@@ -1,17 +1,13 @@
-import 'dart:io';
- main()
+void main()
 {
-  var c;
-  print("Enter any character");
-
-  String? ac = stdin.readLineSync();
+  isAlpha('h');
+}
 
 
+void isAlpha(String a)
+{
+  int n=a.codeUnitAt(0);
+  n>=65 && n<=90 || n>=97 && n<=122 ? print("Character is Alphabet"):print("Character is not Alphabet");
 
-  ( (c>='a' && c<='z') || (c >='A' && c<='Z'))?
-    print("The entered character $ac is an Alphabet")
-  :
-    print("The entered character $ac is not an Alphabet");
 
-
-} 
+}
