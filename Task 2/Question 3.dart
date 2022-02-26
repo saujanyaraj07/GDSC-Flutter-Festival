@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
  
-  Map<String?, Object> birthdays = {
+  Map<String, Object> birthdays = {
     "Narendra Modi": "17/09/1950",
     "Mother Teresa": "26/08/1910",
     "A.P.J Abdul Kalam": "15/10/1931",
