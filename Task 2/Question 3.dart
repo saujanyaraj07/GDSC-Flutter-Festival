@@ -1,7 +1,6 @@
 import 'dart:io';
 
 void main() {
- 
   Map<String, Object> birthdays = {
     "Narendra Modi": "17/09/1950",
     "Mother Teresa": "26/08/1910",
@@ -15,7 +14,7 @@ void main() {
   });
 
   stdout.write("\nWho's birthday do you want to know? ");
-  String choice = stdin.readLineSync();
+  String? choice = stdin.readLineSync();
 
   print("\n$choice's birthday is ${birthdays[choice]}\n");
 }
